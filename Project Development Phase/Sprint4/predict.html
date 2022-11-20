@@ -1,0 +1,191 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <title>Dashboard</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link rel="stylesheet" href="/static/dashbord.css">
+</head>
+<body>
+    <style>
+body{
+    background-image: url(" https://img.traveltriangle.com/blog/wp-content/uploads/2019/05/Highest-Rainfall-in-India.jpg");
+
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: 100% 100%;
+}
+</style>
+<!-- <body style="background:url('data:image/jpeg;base64,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');"> -->
+    <!-- <div class="user">
+        <div id="menu" class="container" onclick="myFunction(this)">
+            <div class="bar1"></div>
+            <div class="bar2"></div>
+            <div class="bar3"></div>
+
+            <div id="drop" class="profile">
+                <a href="profile.html">
+                    <h3>Profile</h3>
+                </a>
+                <a href="">
+                    <h3>Logout</h3>
+                </a>
+            </div>
+        </div>
+    </div>
+    <script> -->
+        <!-- var drop = document.getElementById('drop');
+        var a = 0;
+        function myFunction(x) {
+            if (a == 0) {
+                x.classList.toggle("change");
+                drop.style.display = 'block';
+                a++;
+            }
+            else {
+                x.classList.toggle("change");
+                drop.style.display = 'none';
+                a--;
+            }
+
+        }
+    </script> -->
+    <style>
+        body {
+          margin: 0;
+          font-family: Arial, Helvetica, sans-serif;
+        }
+        
+        .topnav {
+          overflow: hidden;
+          background-color: #333;
+        }
+        
+        .topnav a {
+          float: left;
+          color: #f2f2f2;
+          text-align: center;
+          padding: 14px 16px;
+          text-decoration: none;
+          font-size: 17px;
+        }
+        
+        .topnav a:hover {
+          background-color: #ddd;
+          color: black;
+        }
+        
+        .topnav a.active {
+          background-color: #04AA6D;
+          color: white;
+        }
+        </style>
+      <div class="topnav">
+        <a class="active" href="home1.html">Home</a>
+        <!-- <a href="#news">News</a> -->
+        <a href="display.html">Predict</a>
+        <a href="contact.html">Contact</a>
+      </div>
+              
+    <div class="login">
+
+        <center>
+            <h1 style="color:white;font-size:60px;">Rainfall Prediction</h1>
+
+            <form action="#" method="post" class="predict">
+                <table>
+                    <tr>
+                        <th><label for="Location"><b>Location</b></label></th>
+                        <td>
+                            <select id="Location" name="Location" required>
+                                <option value="">Select Location</option>
+                                <option value="1">Andhra Pradesh</option>
+                                <option value="2">Arunachal Pradesh</option>
+                                <option value="3">Assam</option>
+                                <option value="4">Bihar</option>
+                                <option value="5">Chhattisgarh</option>
+                                <option value="6">Goa</option>
+                                <option value="7">Gujarat</option>
+                                <option value="8">Haryana</option>
+                                <option value="9">Himachal Pradesh</option>
+                                <option value="10">Jharkhand</option>
+                                <option value="11">Karnataka</option>
+                                <option value="12">Kerala</option>
+                                <option value="13">Madhya Pradesh</option>
+                                <option value="14">Maharashtra</option>
+                                <option value="15">Manipur</option>
+                                <option value="16">Meghalaya</option>
+                                <option value="17">Mizoram</option>
+                                <option value="18">Nagaland</option>
+                                <option value="19">Odisha</option>
+                                <option value="20">Punjab</option>
+                                <option value="21">Rajasthan</option>
+                                <option value="22">Sikkim</option>
+                                <option value="23">Tamil Nadu</option>
+                                <option value="24">Telangana</option>
+                                <option value="25">Tripura</option>
+                                <option value="26">Uttarakhand</option>
+                                <option value="27">Uttar Pradesh</option>
+                                <option value="28">West Bengal</option>
+                            </select>
+                        </td>
+                    </tr>
+                      
+                    <tr>
+                        <th><label for="city"><b>Enter City</b></label></th>
+                        <td><input type="city" placeholder="Enter City" id="city" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="date"><b>Enter Date</b></label></th>
+                        <td><input type="date" placeholder="Enter Date" id="date" required></td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="mintemp"><b>Min Temp</b></label></th>
+                        <td><input type="number" placeholder="Enter Temp in °C" id="mintemp" required></td>
+                    </tr>
+
+                    <tr>
+                        <th><label for="maxtemp"><b>Max Temp</b></label></th>
+                        <td><input type="number" placeholder="Enter Temp in °C " id="maxtemp" required></td>
+                    </tr>
+                    
+                    <tr>
+                        <th><label for="pressure"><b>Pressure</b></label></th>
+                        <td><input type="number" placeholder="Enter Pressure" id="pressure" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="windir"><b>Wind Direction</b></label></th>
+                        <td><input type="text" placeholder="Enter Wind Direction" id="windir" required></td>
+                    </tr>
+                    <tr>
+                        <th><label for="windspe"><b>Wind Speed</b></label></th>
+                        <td><input type="number" placeholder="Enter speed" id="windspe" required></td>
+                    </tr>
+
+
+                </table>
+
+                <br>
+                
+  <body> 
+    <input type="submit" id="submitBtn"/>
+    <script>
+      document.getElementById("submitBtn").addEventListener("click", myFunction);
+      function myFunction() {
+        window.location.href="chance1.html";
+      }
+    </script>
+    
+    
+  </body>
+</html>
+
+            </form>
+        </center>
+
+    </div>
+</body>
+
+</html>
